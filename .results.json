@@ -2,25 +2,25 @@
   "stats": {
     "suites": 4,
     "tests": 8,
-    "passes": 6,
+    "passes": 8,
     "pending": 0,
-    "failures": 2,
-    "start": "2023-12-13T21:49:20.894Z",
-    "end": "2023-12-13T21:49:21.224Z",
-    "duration": 330
+    "failures": 0,
+    "start": "2023-12-14T10:07:49.070Z",
+    "end": "2023-12-14T10:07:49.559Z",
+    "duration": 489
   },
   "tests": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "charges 30 dollars for a distance over 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -48,78 +48,39 @@
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Bye.' to equal 'Thank you so much.'",
-        "showDiff": true,
-        "actual": "Bye.",
-        "expected": "Thank you so much.",
-        "stack": "AssertionError: expected 'Bye.' to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Bye.' to equal 'Thank you.'",
-        "showDiff": true,
-        "actual": "Bye.",
-        "expected": "Thank you.",
-        "stack": "AssertionError: expected 'Bye.' to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "should return \"Thank you so much.\" if the tip is generous",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Bye.' to equal 'Thank you so much.'",
-        "showDiff": true,
-        "actual": "Bye.",
-        "expected": "Thank you so much.",
-        "stack": "AssertionError: expected 'Bye.' to equal 'Thank you so much.'\n    at Context.<anonymous> (test/indexTest.js:28:51)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    },
-    {
-      "title": "should return \"Thank you.\" if the tip is not as generous",
-      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Bye.' to equal 'Thank you.'",
-        "showDiff": true,
-        "actual": "Bye.",
-        "expected": "Thank you.",
-        "stack": "AssertionError: expected 'Bye.' to equal 'Thank you.'\n    at Context.<anonymous> (test/indexTest.js:32:58)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "charges 30 dollars for a distance over 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -145,9 +106,23 @@
       "err": {}
     },
     {
+      "title": "should return \"Thank you so much.\" if the tip is generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"Thank you.\" if the tip is not as generous",
+      "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
